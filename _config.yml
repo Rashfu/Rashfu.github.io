@@ -1,4 +1,4 @@
-title: Innocentius | PhD Candidate In Management Science  # 站点标题
+title: Darcy | PhD Candidate In Management Science  # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   Innocentius<br/>
   PhD Candidate in Management Sciences<br/>
@@ -144,11 +144,11 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background-position: 0% 0%;
                   background-repeat: no-repeat;
                   background-attachment: fixed;
-                  background-image: url(/assets/images/background/tenbridge_wall.jpg);
+                  background-image: url();
                 }
                 @media (min-aspect-ratio: 2400/1850) {
                   .wrap {
-                    background-image: url(/assets/images/background/tenbridge_wall.jpg);
+                    background-image: url();
                   }
                 }
                 .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
@@ -170,7 +170,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 h4,
                 h5,
                 h6 {
-                  font-family: "Courier New", "Courier", "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft JhengHei", "Microsoft YaHei", monospace;
+                  font-family: "Microsoft YaHei", monospace;
                 }
               </style>
             - | # 网页标题使用加粗字号
