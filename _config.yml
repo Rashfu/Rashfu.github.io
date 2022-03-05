@@ -1,17 +1,17 @@
 title: Darcy | PhD Candidate In Management Science  # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  Innocentius<br/>
+  Darcy<br/>
   PhD Candidate in Management Sciences<br/>
   He/Him<br/>
   <br/>
-  <a href="mailto:lzhao49@wisc.edu">
+  <a href="mailto:darcy@naturemag.org">
     <i class="fas fa-envelope"></i>
   </a>
-  <a href="https://github.com/innocentius">
+  <a href="https://github.com/Rashfu">
     <i class="fab fa-github"></i>
   </a>
   </iframe>
-url: https://innocentius.github.io # 你的域名，例如 https://wu-kan.github.io
+url: https://Rashfu.github.io # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
 defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/front-matter-defaults/>功能进行配置
@@ -600,12 +600,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           append_to_head:
             - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
               <script>
-                var myname = "Innocentius";
-                var profile = "lzhao49@wisc.edu";
+                var myname = "Darcy";
+                var profile = "";
                 var usage = "payment";
-                var wechat = "wxp://f2f0jSHlRJDKH8XVlTpFReaUZFjBLXYfMbs7";
+                var wechat = "";
                 var tenpay = "";
-                var alipay = "https://qr.alipay.com/fkx11260ccu9fqncqe3bk61?t=1615375260583";
+                var alipay = "";
                 var paypal = "";
                 var multilingual = false;
                 var branding = false;
