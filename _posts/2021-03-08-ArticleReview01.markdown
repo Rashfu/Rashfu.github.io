@@ -4,7 +4,7 @@ title:  "COVID-19对媒体系统的冲击：疫情期间信息接受的传播和
 date:   2021-03-08 21:51:02 +0800
 tags:
   - Article_Review
-permalink: /0010
+permalink: /0005
 ---
 
 原标题：Impact of Covid-19 on the media system. Communicative and democratic consequences of news consumption during the outbreak
