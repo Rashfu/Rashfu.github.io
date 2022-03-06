@@ -585,7 +585,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             enable: false
           count: true # 统计每个标签下文章的数量
           toc: # 在正文里显示一个标签的目录
-            enable: false
+            enable: true
         archive:
           group_by: "%b %Y" # 见<https://liquid.bootcss.com/filters/date/>
           posts_count:
@@ -595,7 +595,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             enable: false
           year_count: true
           toc: # 在正文里显示一个归档的目录
-            enable: false
+            enable: true
         merger: # 打赏页，需要配置！
           append_to_head:
             - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
@@ -723,7 +723,7 @@ kramdown: # 见<https://kramdown.gettalong.org/options.html>
   syntax_highlighter_opts: # 可见<https://kramdown.gettalong.org/syntax_highlighter/rouge.html>
     block:
       disable: true # 关掉代码块默认的高亮，换用prismjs
-      line_numbers: false #渲染出来的效果好鬼畜
+      line_numbers: true #渲染出来的效果好鬼畜
     span:
       disable: true
 # 以下为 githubpage上不可修改的参数，见<https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll>
