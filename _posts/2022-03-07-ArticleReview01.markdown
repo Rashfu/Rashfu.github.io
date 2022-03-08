@@ -50,7 +50,7 @@ https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-
    - Decoder：V,K是来自Encoder的信息，Q是来自Decoder的信息(**cross attention**)，<u>可以把前者看作读取输入语音序列的整体信息，后者看作是到目前为止翻译出来的信息，然后两者结合继续往后翻译</u>
 3. **Masked Multi-Head Attention**:保证在解$t$时刻向量时候，看不到$t+1$时刻以及之后的信息
 4. **Feed Forward**:将提取后的信息映射到更想要的语义向量空间，本质是MLP+Relu+MLP
-5. **Position Encoding**:
+5. **Position Encoding**:弥补attention没有时序信息的缺陷
 
 ##### 4.3.2 Encoder和Decoder对比
 
