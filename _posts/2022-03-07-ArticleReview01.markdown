@@ -38,9 +38,10 @@ https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-
 #### 4.3 Model Architecture
 
 <center class="half">
-    <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/09c2ac52-0092-4a89-966b-564876d37dc6/2.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220307%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220307T065601Z&X-Amz-Expires=86400&X-Amz-Signature=f9863102e4d6b7eba5d8f869d964161fa1d8080388a41a9546a908607f744f2d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%222.jpg%22&x-id=GetObject" style="zoom: 20%;" />
-    <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/473f8e65-9734-4d5d-98a7-e07e47bab52c/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220307%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220307T065222Z&X-Amz-Expires=86400&X-Amz-Signature=7d2982c06fb6cca7d914b26bb5a39e6868898fdecb2d0c55ee272af0a910faca&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject" style="zoom:40%;" />
+    <img src="F:\Github\Rashfu.github.io\assets\images\article\1.jpg" style="zoom: 20%;" />
+    <img src="F:\Github\Rashfu.github.io\assets\images\article\2.jpg" style="zoom:40%;" />
 </center>
+
 
 ##### 4.3.1 核心的block分为以下5个
 
@@ -58,9 +59,10 @@ https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-
 - Decoder是结合Encoder信息+当前时刻的所有翻译出来的信息**cross-attention+顺序计算**
 
 <center class="half">
-    <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/39d676af-e9c5-4be2-aa29-62d06d1058b6/3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220307%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220307T080324Z&X-Amz-Expires=86400&X-Amz-Signature=440b86d4afb0b9072bb524bb18a94c0601bb5dd63097173e67851e4563a11d50&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%223.jpg%22&x-id=GetObject" style="zoom: 25%;" />
-    <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e931a413-4255-4ea4-bc68-edfa0d3dee7f/4.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220307%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220307T080407Z&X-Amz-Expires=86400&X-Amz-Signature=855ecec49b1948cb9bafb867ac41da543c5fb523fcd53c74e38390bea1f1bb20&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%224.jpg%22&x-id=GetObject" style="zoom: 25%;" />
+    <img src="F:\Github\Rashfu.github.io\assets\images\article\3.jpg" style="zoom: 25%;" />
+    <img src="F:\Github\Rashfu.github.io\assets\images\article\4.jpg" style="zoom: 25%;" />
 </center>
+
 
 ### 5. Rethink
 
