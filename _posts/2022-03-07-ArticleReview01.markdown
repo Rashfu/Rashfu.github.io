@@ -38,9 +38,10 @@ https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-
 #### 4.3 Model Architecture
 
 <center class="half">
-    <img src="F:\Github\Rashfu.github.io\assets\images\article\1.jpg" style="zoom: 20%;" />
-    <img src="F:\Github\Rashfu.github.io\assets\images\article\2.jpg" style="zoom:40%;" />
+    <img src="assets\images\article\1.jpg" style="zoom: 20%;" />
+    <img src="assets\images\article\2.jpg" style="zoom:40%;" />
 </center>
+
 
 
 ##### 4.3.1 核心的block分为以下5个
