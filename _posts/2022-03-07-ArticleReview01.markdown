@@ -38,8 +38,8 @@ https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-
 #### 4.3 Model Architecture
 
 <center class="half">
-    <img src="https://github.com/Rashfu/Rashfu.github.io/blob/master/assets/images/article/1.jpg" style="zoom: 20%;" />
-    <img src="https://github.com/Rashfu/Rashfu.github.io/blob/master/assets/images/article/2.jpg" style="zoom:40%;" />
+    <img src="https://raw.githubusercontent.com/Rashfu/Rashfu.github.io/master/assets/images/article/1.jpg" style="zoom: 20%;" />
+    <img src="https://raw.githubusercontent.com/Rashfu/Rashfu.github.io/master/assets/images/article/2.jpg" style="zoom:40%;" />
 </center>
 
 
@@ -61,8 +61,8 @@ https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-
 - Decoder是结合Encoder信息+当前时刻的所有翻译出来的信息**cross-attention+顺序计算**
 
 <center class="half">
-    <img src="https://github.com/Rashfu/Rashfu.github.io/blob/master/assets/images/article/3.jpg" style="zoom: 25%;" />
-    <img src="https://github.com/Rashfu/Rashfu.github.io/blob/master/assets/images/article/4.jpg" style="zoom: 25%;" />
+    <img src="https://raw.githubusercontent.com/Rashfu/Rashfu.github.io/master/assets/images/article/3.jpg" style="zoom: 25%;" />
+    <img src="https://raw.githubusercontent.com/Rashfu/Rashfu.github.io/master/assets/images/article/4.jpg" style="zoom: 25%;" />
 </center>
 
 
