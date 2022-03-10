@@ -61,7 +61,7 @@ https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-
 - Decoder是结合Encoder信息+当前时刻的所有翻译出来的信息**cross-attention+顺序计算**
 
 <center class="half">
-    <img src="https://raw.githubusercontent.com/Rashfu/Rashfu.github.io/master/assets/images/article/3.jpg" style="zoom: 25%;" />
+    <img src="/assets/images/article/3.jpg" style="zoom: 25%;" />
     <img src="https://raw.githubusercontent.com/Rashfu/Rashfu.github.io/master/assets/images/article/4.jpg" style="zoom: 25%;" />
 </center>
 
