@@ -53,3 +53,9 @@ Alexey Dosovitskiy, Lucas Beyer等谷歌大脑团队
 跟BERT一模一样，就是把图片裁切成多个16×16 patch作为序列输入，然后加上position encoding
 
 <img src="https://raw.githubusercontent.com/Rashfu/Rashfu.github.io/master/assets/images/article/5.jpg" style="zoom: 70%;" />
+
+### 5. Rethink
+
+- **训练监督方式**：因为transformer在NLP是通过大规模的自监督训练起来的，所以CV目前也是类比NLP通过masked patch prediction来做，但是效果不如有监督。所以未来的发展方向之一是探讨transformer在CV领域的自监督目标函数。
+- **模型架构改进**：你可以改tokenlization，可以改transformer的block。有的论文把self-attention换成mlp也可以做的很好，metaformer认为transformer有效是因为架构（换成不能学习的池化也可以做的很好）
+- **对比学习**：2021年自监督领域最火的方法
