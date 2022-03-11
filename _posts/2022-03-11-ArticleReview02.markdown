@@ -52,9 +52,4 @@ Alexey Dosovitskiy, Lucas Beyer等谷歌大脑团队
 
 跟BERT一模一样，就是把图片裁切成多个16×16 patch作为序列输入，然后加上position encoding
 
-<img src="https://raw.githubusercontent.com/Rashfu/Rashfu.github.io/master/assets/images/article/1.jpg" style="zoom: 20%;" />
-
-
-### 5. Rethink
-
-1. 
+<img src="https://raw.githubusercontent.com/Rashfu/Rashfu.github.io/master/assets/images/article/5.jpg" style="zoom: 70%;" />
