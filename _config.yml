@@ -170,7 +170,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 h4,
                 h5,
                 h6 {
-                  font-family: "Source Code Pro", monospace, "Microsoft YaHei";
+                  font-family: monospace, "Microsoft YaHei", "Source Code Pro";
                 }
               </style>
             - | # 网页标题使用加粗字号

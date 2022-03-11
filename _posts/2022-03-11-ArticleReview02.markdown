@@ -16,9 +16,7 @@ Alexey Dosovitskiy, Lucas Beyer等谷歌大脑团队
 
 ### 2. 引用
 
- Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. Attention is all you need. Advances in neural information processing systems, 30, 2017.
-
-https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html
+[Dosovitskiy, Alexey, et al. "An image is worth 16x16 words: Transformers for image recognition at scale." *arXiv preprint arXiv:2010.11929* (2020).](https://arxiv.org/abs/2010.11929)
 
 ### 3. 摘要
 
