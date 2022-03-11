@@ -38,7 +38,7 @@ Alexey Dosovitskiy, Lucas Beyer等谷歌大脑团队
   1. CNN具有图片性质的归纳偏置：**locality**局部性，**Translation Equivariance**平移等价性，这两者都是最底层卷积核所带来的性质。
   2. Transformer没有任何先验假设，所有性质都需要从数据中学习，所以需要大量数据
 - 为了保证NLP里面原始Transformer的架构不加修改的迁移到CV领域，**本文**只在图片预处理的**patch extraction**步骤中加入了一些图片的归纳偏置，然后在大数据集上预训练，使用时微调可以得到非常好的效果。
-- 未来的应用方向有[detection](Carion, Nicolas, et al. "End-to-end object detection with transformers." *European conference on computer vision*. Springer, Cham, 2020.)，[segmentation](https://openaccess.thecvf.com/content/CVPR2021/html/Zheng_Rethinking_Semantic_Segmentation_From_a_Sequence-to-Sequence_Perspective_With_Transformers_CVPR_2021_paper.html)等等，在本文之前已经有[DETR](https://arxiv.org/abs/2005.12872)了
+- 未来的应用方向有[detection](https://arxiv.org/abs/2005.12872)，[segmentation](https://openaccess.thecvf.com/content/CVPR2021/html/Zheng_Rethinking_Semantic_Segmentation_From_a_Sequence-to-Sequence_Perspective_With_Transformers_CVPR_2021_paper.html)等等，在本文之前已经有[DETR](https://arxiv.org/abs/2005.12872)了
 - **ViT**自监督训练效果还没有达到有监督的水平，需要进一步探讨深挖
 
 #### 4.3 Related Works
