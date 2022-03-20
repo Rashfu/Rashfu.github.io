@@ -42,7 +42,7 @@ Nathan Drenkow, Andy Ding, Francis X. Creighton, Russell H. Taylor, 一众医生
 - 缺乏遮挡区域的识别
 - 没有匹配唯一性约束
 
-<font color=#FF0000>**阐述了自己的整个工作：**</font>
+<font color=#FF0000>阐述了自己的整个工作：</font>
 
 - 整体：Transformer架构+OT
 - 细节：采用了Relative Position Encoding + 注意力机制
@@ -58,13 +58,14 @@ Nathan Drenkow, Andy Ding, Francis X. Creighton, Russell H. Taylor, 一众医生
 1. **Tokenizer：**可以视为Decoder，将多尺度特征图融合，最终输出为原图大小的特征图$F_l,F_r$
 1. Transformer：输入左右目特征图$F_l,F_r$，输出融合后的特征与注意力权重$\alpha_{i,j}$
 1. **Regression Head：**OT算法进行优化注意力权重$\alpha_{i,j}$，输出低分辨率左图的视差，通过插值上采样+上下文信息调整层输出最终原图视差$D_l$
-1. <font color=#FF0000>**Loss**:</font>一方面是权重矩阵$\alpha_{i,j}$在GT位置响应值应该趋近于1（Relative Response Loss），另一方面是两个视差图与GT视差的smoothL1loss（遮挡图同理）
+1. <font color=#FF0000>Loss:</font>一方面是权重矩阵$\alpha_{i,j}$在GT位置响应值应该趋近于1（Relative Response Loss），另一方面是两个视差图与GT视差的smoothL1loss（遮挡图同理）
 
 <center class="half">
-    <img src="https://raw.githubusercontent.com/Rashfu/Rashfu.github.io/master/assets/images/article/6.jpg" style="zoom: 25%;" />
-    <img src="https://raw.githubusercontent.com/Rashfu/Rashfu.github.io/master/assets/images/article/7.jpg" style="zoom: 25%;" />
-    <img src="https://raw.githubusercontent.com/Rashfu/Rashfu.github.io/master/assets/images/article/8.jpg" style="zoom: 25%;" />
-    <img src="https://raw.githubusercontent.com/Rashfu/Rashfu.github.io/master/assets/images/article/9.jpg" style="zoom: 25%;" />
+    <img src="https://raw.githubusercontent.com/Rashfu/Rashfu.github.io/master/assets/images/article/6.jpg" style="zoom: 30%;" />
+    <img src="https://raw.githubusercontent.com/Rashfu/Rashfu.github.io/master/assets/images/article/7.jpg" style="zoom: 30%;" />
+    <img src="https://raw.githubusercontent.com/Rashfu/Rashfu.github.io/master/assets/images/article/8.jpg" style="zoom: 30%;" />
+    <img src="https://raw.githubusercontent.com/Rashfu/Rashfu.github.io/master/assets/images/article/9.jpg" style="zoom: 30%;" />
 </center>
+
 
 ### 5. Rethink
