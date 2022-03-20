@@ -56,7 +56,7 @@ Nathan Drenkow, Andy Ding, Francis X. Creighton, Russell H. Taylor, 一众医生
 
 1. **Backbone：**采用CVPR2018PSMNet的SPPbackbone输出4尺度特征图
 1. **Tokenizer：**可以视为Decoder，将多尺度特征图融合，最终输出为原图大小的特征图$F_l,F_r$
-1. **Transformer**：输入左右目特征图$F_l,F_r$，输出融合后的特征与注意力权重$\alpha_{i,j}$
+1. **Transformer：**输入左右目特征图$F_l,F_r$，输出融合后的特征与注意力权重$\alpha_{i,j}$
 1. **Regression Head：**OT算法进行优化注意力权重$\alpha_{i,j}$，输出低分辨率左图的视差，通过插值上采样+上下文信息调整层输出最终原图视差$D_l$
 1. <font color=#FF0000> Loss: </font>一方面是权重矩阵$\alpha_{i,j}$在GT位置响应值应该趋近于1（Relative Response Loss），另一方面是两个视差图与GT视差的smoothL1loss（遮挡图同理）
 
