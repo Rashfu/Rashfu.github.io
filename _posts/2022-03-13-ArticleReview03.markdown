@@ -71,4 +71,4 @@ Nathan Drenkow, Andy Ding, Francis X. Creighton, Russell H. Taylor, 一众医生
 
 ### 5. Rethink
 
-主要还是证明了Transformer在深度估计领域的潜力
+- 以CNN的Encoder-Decoder提取token，将token放入Transformer求解视差，证明了Transformer在深度估计领域的潜力。
